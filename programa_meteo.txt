@@ -1,0 +1,10 @@
+1- Necesitamos recibir datos de la siguiente API https://open-meteo.com/ para obtener la temperatura, las precipitaciones y la velocidad del viento en una ciudad que le indiquemos con la latitud y longitud.
+2- Cada vez que se ejecute el programa, se deben guardar en una BBDD (la que quieras menos Oracle que es pa viejos) los datos que conseguimos, además de la fecha y hora en que se ejecutó el programa.
+3- Necesitamos crear un endpoint que nos devuelva los datos de la BBDD en formato JSON al mandarle la fecha y hora en que se ejecutó el programa y la latitud y longitud de la ciudad. Si se manda
+un parámetro llamado "order" con el valor "desc" se devuelve los datos en orden descendente y si se manda "order" con el valor "asc" se devuelven los datos en orden ascendente simpre que no se mande la fecha y la hora.
+4- Si todo funciona correctamente, dockeriza todo en un contenedor para el código y otro para la BBDD, pudiendo ejecutar ambos con docker compose.
+5- El proyecto se debe ir comiteando en github.
+6- Tener en cuenta el control de errores.
+
+Se puede usar internet y lo que quieras incluso ChatGPT.
+Al final, hay que explicar como funciona todo al compañero para que pueda implementar el proyecto en la plantilla de la empresa.
